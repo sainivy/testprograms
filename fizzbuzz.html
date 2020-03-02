@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FIZZ BUZZ</title>
+	
+</head>
+<body>
+	<input type="submit" name="submit" onclick="fizzbuzz();">
+	<script type="text/javascript">
+		function fizzbuzz(){
+	for (var i=1; i <= 100; i++)
+	{
+	    if (i % 5 == 0 && i % 3 == 0)
+	        document.writeln("FizzBuzz");
+	    else if (i % 3 == 0)
+	        document.writeln("Fizz");
+	    else if (i % 5 == 0)
+	        document.writeln("Buzz");
+	    else
+	        document.writeln(i);
+	}
+}
+	</script>
+</html>
